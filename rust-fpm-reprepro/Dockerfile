@@ -1,4 +1,4 @@
-FROM rustlang/rust:nightly
+FROM rust:latest
 
 RUN apt -qq update \
  && apt -qq upgrade -y \
